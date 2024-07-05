@@ -1,6 +1,6 @@
 # ScratchML
 
-<img src="logo.svg" alt="ScratchML Logo" width="400"/>
+<img src="logo.svg" alt="ScratchML Logo" width="800"/>
 
 ScratchML is an educational and innovative project inspired by established machine learning libraries such as scikit-learn and Theano. Our goal is to both educate on existing statistical learning methods and improve upon them, making advanced machine learning techniques more accessible and understandable.
 
