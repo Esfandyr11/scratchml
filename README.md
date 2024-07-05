@@ -7,7 +7,7 @@ ScratchML is an educational and innovative project inspired by established machi
 
 ### Key Features
 
-- **Educational Focus**: Each module should come with extensive documentation and examples, making it easier for learners to understand the underlying concepts.
+- **Educational Focus**: Each module should come with extensive documentation and visual processing capabilities, making it easier for learners to understand the underlying concepts.
 
 ## Getting Started
 
