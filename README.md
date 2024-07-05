@@ -9,25 +9,10 @@ ScratchML is an educational and innovative project inspired by established machi
 
 - **Educational Focus**: Each module should come with extensive documentation and visual processing capabilities, making it easier for learners to understand the underlying concepts.
 
-## Getting Started
-
-To get started with ScratchML, clone this repository and install the required dependencies:
-
-```bash
-git clone https://github.com/yourusername/scratchml.git
-cd scratchml
-pip install -r requirements.txt
-```
-
-For more detailed instructions and examples, please refer to our [documentation](link-to-docs).
-
 ## Contributing
 
 We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated. Please check out our [contribution guidelines](link-to-contributing) for more information on how to get started.
 
-## License
-
-ScratchML is released under the [MIT License](link-to-license).
 
 ## TODO List
 
