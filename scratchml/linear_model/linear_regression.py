@@ -8,7 +8,7 @@ class LinearRegression:
     refrernces the weights i.e the slopes of the multi regression , while b is the bias in the regression
 
     , to display the loss over iterations, also the weights and biases are recorded in a array named history"""
-    def __init__(self, lr, iter):
+    def __init__(self, lr=0.1, iter=1000):
         self.lr = lr
         self.iter = iter
         self.m = None
@@ -76,3 +76,11 @@ class LinearRegression:
         # Display the animation
         plt.show()
 
+np.random.seed(42)
+X = np.random.rand(100, 1)
+Y = 3 * X.squeeze() + 2 + np.random.randn(100) * 0.1
+
+model = LinearRegression(lr=0.1, iter=600)
+model.train(X, Y)
+
+model.animate(X, Y)
