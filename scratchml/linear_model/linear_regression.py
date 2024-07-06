@@ -75,12 +75,3 @@ class LinearRegression:
 
         # Display the animation
         plt.show()
-
-np.random.seed(42)
-X = np.random.rand(100, 1)
-Y = 3 * X.squeeze() + 2 + np.random.randn(100) * 0.1
-
-model = LinearRegression(lr=0.1, iter=600)
-model.train(X, Y)
-
-model.animate(X, Y)
