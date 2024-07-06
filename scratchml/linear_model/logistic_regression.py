@@ -78,3 +78,6 @@ class LogisticRegression:
         plt.close(fig)
         print("Animation saved as 'logistic_regression.gif'")
 
+    def predict(self, X):
+        prob = self.forward_prop(X)
+        return np.where(prob >= 0.5, 1, 0)
