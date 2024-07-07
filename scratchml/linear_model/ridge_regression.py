@@ -13,7 +13,7 @@ class RidgeRegression:
         self.loss = []
         self.history =[]
     
-    def forward_prop(self, X):
+    def prediction(self, X):
         pred = np.dot(X, self.m) + self.b
         return pred
     
@@ -34,7 +34,7 @@ class RidgeRegression:
         self.m = np.random.randn(n_features, 1)  # Correct the shape of m to match features
         
         for i in range(self.iter):
-            y_pred = self.forward_prop(X)
+            y_pred = self.prediction(X)
             cost = self.cost_func(Y, y_pred)
             dw, db = self.back_prop(Y, y_pred, X)
             self.m -= self.lr * dw
@@ -49,7 +49,7 @@ class RidgeRegression:
         # Create a figure and axis for the animation
         fig, ax = plt.subplots(figsize=(10, 6))
         ax.scatter(X, Y, color='blue')
-        line, = ax.plot(X, self.forward_prop(X), color='red')
+        line, = ax.plot(X, self.prediction(X), color='red')
 
         # Function to update the animation
         def update(i):
