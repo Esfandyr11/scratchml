@@ -72,6 +72,6 @@ class LinearRegression:
 
         # Save the animation as a GIF
         ani.save(save_path, writer=PillowWriter(fps=10))
-
+        plt.title('Linear Regression')
         # Display the animation
         plt.show()

@@ -62,7 +62,7 @@ class RidgeRegression:
 
         # Save the animation as a GIF
         ani.save(save_path, writer=PillowWriter(fps=10))
-
+        plt.title('Ridge Regression')
         # Display the animation
         plt.show()
 

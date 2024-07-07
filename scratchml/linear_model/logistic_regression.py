@@ -75,6 +75,7 @@ class LogisticRegression:
         writer = PillowWriter(fps=25)
         anim.save('logistic_regression.gif', writer=writer)
         plt.show()
+        plt.title('Logistic Regression')
         plt.close(fig)
         print("Animation saved as 'logistic_regression.gif'")
 
