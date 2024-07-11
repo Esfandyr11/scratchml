@@ -75,3 +75,5 @@ class LinearRegression:
         plt.title('Linear Regression')
         # Display the animation
         plt.show()
+
+a = LinearRegression().train()
